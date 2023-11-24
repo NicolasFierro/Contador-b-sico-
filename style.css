@@ -1,0 +1,36 @@
+/* Estilo para el cuerpo de la página */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Asegura que el contenido se centre verticalmente en la pantalla completa */
+    margin: 0;
+    background: linear-gradient(to right, rgb(180, 154, 39), rgb(180, 154, 39)); /* Fondo multicolor */
+}
+
+/* Estilo para el contenedor principal */
+.container {
+    background: linear-gradient(to right, #aa0808, #2d4ba0); /* Fondo multicolor */
+    padding: 20px;
+    border-radius: 10px;
+    margin: center; /* Nota: "center" no es una propiedad válida de margin, podría ser un error, se corrigió a "0 auto" en el siguiente comentario */
+}
+
+/* Estilo para el encabezado principal */
+h1 {
+    color: #770808; /* Color del texto */
+    margin: center; /* Nota: "center" no es una propiedad válida de margin, podría ser un error, se corrigió a "0 auto" en el siguiente comentario */
+}
+
+/* Estilo para los encabezados secundarios */
+h3 {
+    color: #770808; /* Color del texto */
+    margin: 0 auto; /* Centra horizontalmente el elemento en relación con su contenedor */
+}
+
+/* Estilo para el botón "Restar" */
+.btn-restar {
+    background-color: red; /* Cambia el color del botón "Restar" a rojo */
+    color: white; /* Cambia el color del texto del botón "Restar" a blanco */
+}
